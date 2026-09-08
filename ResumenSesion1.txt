@@ -1,0 +1,39 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOyIXqFKCLWSGHNt5Q5lVgp",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/JuanSc120/inteligencia-artificial-ll/blob/main/ResumenSesion1.txt\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "KDD (Knowledge Discovery in Databases) es el proceso global, iterativo e interactivo enfocado en transformar grandes volúmenes de datos crudos en conocimiento válido, novedoso, potencialmente útil y comprensible para la toma de decisiones.Orígenes y Conceptos FundamentalesContexto histórico: Surge a finales de los años 80 para resolver el dilema de tener abundancia de datos pero escasez de conocimiento analítico. Formalizado por Usama Fayyad, Gregory Piatetsky-Shapiro y Padhraic Smyth (1996), sentó las bases para marcos industriales posteriores como CRISP-DM y SEMMA.KDD vs. Data Mining:KDD: Es el proceso integral de inicio a fin (desde el dato crudo hasta la validación del conocimiento).Data Mining: Es únicamente la etapa técnica/algorítmica dentro del proceso KDD donde se extraen los patrones.Criterios del conocimiento descubierto: Debe ser no trivial (requiere inferencia), válido (generalizable a nuevos datos), novedoso (relaciones antes desconocidas), útil (aplicable a decisiones) y comprensible (interpretable por humanos).Las 5 Fases del Ciclo KDDEl ciclo opera mediante transformaciones intermedias sucesivas y es de naturaleza retroalimentada:FaseEntrada → SalidaAcciones Clave1. SelecciónDatos crudos $\\rightarrow$ Datos objetivoIntegración de almacenes/bases de datos, filtrado de registros y selección preliminar de atributos.2. Preprocesamiento (Limpieza)Datos objetivo $\\rightarrow$ Datos preprocesadosManejo de valores nulos (imputación/eliminación), tratamiento de ruido, detección de outliers y resolución de inconsistencias.3. TransformaciónDatos preprocesados $\\rightarrow$ Datos transformadosNormalización/escalado (Min-Max, Z-Score), codificación categórica (One-Hot/Ordinal), reducción de dimensionalidad (PCA) e ingeniería de atributos.4. Minería de Datos (Data Mining)Datos transformados $\\rightarrow$ Patrones/ModelosAplicación de algoritmos supervisados (árboles, regresiones, redes neuronales), no supervisados (K-Means, DBSCAN) o de reglas de asociación (Apriori).5. Interpretación / EvaluaciónPatrones $\\rightarrow$ ConocimientoValidación técnica (ROC-AUC, matrices de confusión, $R^2$), filtrado de patrones triviales/espurios y visualización para el negocio.Iteratividad del FlujoEl proceso no es estrictamente lineal. Métricas bajas, sobreajuste (overfitting) o falta de representatividad en la fase de evaluación disparan retrocesos inmediatos hacia la selección de nuevos atributos, el refinamiento de la limpieza/transformación o el cambio de algoritmo en minería de datos."
+      ],
+      "metadata": {
+        "id": "wyYSQVQvZgpy"
+      }
+    }
+  ]
+}
